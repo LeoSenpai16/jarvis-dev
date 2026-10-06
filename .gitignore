@@ -1,0 +1,25 @@
+# Secrets
+.env
+.env.*
+*.pem
+*.key
+
+# Node
+node_modules/
+dist/
+build/
+.vite/
+
+# Logs
+*.log
+data/logs/*
+
+# Databases / local data
+data/postgres/*
+data/memory/*
+
+# OS / editor
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/
